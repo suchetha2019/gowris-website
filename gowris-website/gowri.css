@@ -1,0 +1,146 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"); 
+
+#nav{
+background-color:#3A0B0C;
+}
+.cont{
+background-color:#26181d;
+}
+.bg{
+background: url("photoshoped/header.jpg") no-repeat;
+/* background-image: url("paper.gif"); */
+display:block;
+width:100%;
+height:150px;
+}
+
+.bgf{
+background: url("photoshoped/footer.jpg") no-repeat;
+/* background-image: url("paper.gif"); */
+display:block;
+width:100%;
+height:187px;
+}
+
+.carimage{
+background: url("photoshoped/images.jpg") no-repeat;
+width:128px;
+height:128px;
+display:block;
+transform: scale(1.0)!important;
+margin:auto;
+}
+
+.ringsimage{
+background: url("photoshoped/images.jpg") -128px 0 no-repeat;
+width:128px;
+height:128px;
+display:block;
+transform: scale(1.0)!important;
+margin:auto;
+}
+
+.teddyimage{
+background: url("photoshoped/images.jpg") -256px 0 no-repeat;
+width:128px;
+height:128px;
+display:block;
+transform: scale(1.0)!important;
+margin:auto;
+}
+
+.logoplacement{
+background: url("images/logo.jpg") no-repeat;
+width:100%;
+height:126px;
+display:block;
+z-index:999;
+/*    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+	 -moz-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+ -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5)); */
+}
+p,li,h,.media-body{
+font-size:16px;
+font-family:Comic Sans MS;
+color:white;
+}
+.media-heading,h4,h3,button{
+font-family:Comic Sans MS;
+}
+.jumbotron p{
+font-size:16px;
+}
+.jumbotron div{
+font-family:Comic Sans MS;
+}
+.carousel img{
+width:100%;
+}
+#maps{
+width:100%;
+}
+
+.galleryimg{
+width:100%;
+}
+
+#videos{
+width:600px;
+height:400px;
+display:block;
+ margin: 0 auto;
+}
+#img1{
+float:right;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.bg{
+background: url("photoshoped/header3.jpg") no-repeat;
+}
+.bgf{
+background: url("photoshoped/footer3.jpg") no-repeat;
+}
+.logoplacement{
+left:30%;
+}
+#videos{
+width:150px;
+height:100px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+.bg{
+background: url("photoshoped/header2.jpg") no-repeat;
+}
+.bgf{
+background: url("photoshoped/footer2.jpg") no-repeat;
+}
+.logoplacement{
+left:34%;
+}
+#videos{
+width:250px;
+height:200px;
+
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.bg{
+background: url("photoshoped/header1.jpg") no-repeat;
+}
+.bgf{
+background: url("photoshoped/footer1.jpg") no-repeat;
+}
+#videos{
+width:340px;
+height:240px;
+
+}
+}
